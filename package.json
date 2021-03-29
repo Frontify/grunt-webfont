@@ -1,12 +1,9 @@
 {
-  "name": "grunt-webfont",
+  "name": "@frontify/grunt-webfont",
   "description": "Ultimate SVG to webfont converter for Grunt.",
-  "version": "2.0.0",
-  "homepage": "https://github.com/sapegin/grunt-webfont",
-  "author": {
-    "name": "Artem Sapegin",
-    "url": "http://sapegin.me/"
-  },
+  "version": "1.7.2-frontify",
+  "homepage": "https://github.com/Frontify/grunt-webfont",
+  "author": "Artem Sapegin (http://sapegin.me/)",
   "contributors": [
     "Maxime Thirouin (http://moox.io/)",
     "Aaron Lampros (https://github.com/alampros)",
@@ -15,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/sapegin/grunt-webfont.git"
+    "url": "git://github.com/Frontify/grunt-webfont.git"
   },
   "bugs": {
-    "url": "https://github.com/sapegin/grunt-webfont/issues"
+    "url": "https://github.com/Frontify/grunt-webfont/issues"
   },
   "license": "MIT",
   "main": "tasks/webfont.js",
@@ -74,5 +71,8 @@
     "truetype",
     "css",
     "icon"
-  ]
+  ],
+  "directories": {
+    "test": "test"
+  }
 }
